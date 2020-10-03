@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e60979ead442d48e79d242e46fb769ec, type: 3}
+  m_Name: StationaryCarInfoSO
+  m_EditorClassIdentifier: 
+  _CarPrefab: {fileID: 6913223530603536529, guid: 5395fa3eab9974c76825d8741e754d85, type: 3}
+  max_Y_rotation: 40
+  carDistanceInFront: 30
+  maxNumberOfCarsPerSnow: 6

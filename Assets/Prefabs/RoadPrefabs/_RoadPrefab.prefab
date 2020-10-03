@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 629831308340067821}
   m_Layer: 0
   m_Name: _RoadPrefab
-  m_TagString: Untagged
+  m_TagString: road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,11 +139,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 62b463a2d17404e80bf4c53fa96df1c3, type: 2}
     - target: {fileID: -5865645240181602609, guid: 9416d7a271d8e44eab6cc1f2a2238fd0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -629400386331088461, guid: 9416d7a271d8e44eab6cc1f2a2238fd0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -629400386331088461, guid: 9416d7a271d8e44eab6cc1f2a2238fd0, type: 3}
+      propertyPath: m_TagString
+      value: snow
       objectReference: {fileID: 0}
     - target: {fileID: -342123294877716557, guid: 9416d7a271d8e44eab6cc1f2a2238fd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -159,7 +163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8705179276271927203, guid: 9416d7a271d8e44eab6cc1f2a2238fd0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9416d7a271d8e44eab6cc1f2a2238fd0, type: 3}
